@@ -4,7 +4,7 @@ Sitio web de un estudio creativo ficticio, diseñado en Figma y luego maquetado 
 
 ![Kairo Creative Studio](./assets/livepage.png)
 
-**[Ver el diseño en Figma](https://www.figma.com/design/mWvzCcdDdTe7TSaPTA11KG/KAIRO-Creative-Studio)** · [Ver en vivo](#)
+**[Ver el diseño en Figma](https://www.figma.com/design/mWvzCcdDdTe7TSaPTA11KG/KAIRO-Creative-Studio)** · [Ver en vivo](https://kairo-roan.vercel.app)
 
 ---
 
