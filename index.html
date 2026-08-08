@@ -9,84 +9,78 @@
 
 <body>
     <header>
-        <div><a href="index.html">
-                <h1>KAIRO</h1>
-            </a></div>
+        <h1><a href="index.html">KAIRO</a></h1>
         <nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="/pages/about.html">Sobre Nosotros</a></li>
-                <li><a href="/pages/portfolio.html">Portfolio</a></li>
-                <li><a href="/pages/service.html">Servicios</a></li>
-                <li><a href="/pages/contacto.html">Contacto</a></li>
+                <li><a href="pages/about.html">Sobre Nosotros</a></li>
+                <li><a href="pages/portfolio.html">Portfolio</a></li>
+                <li><a href="pages/service.html">Servicios</a></li>
+                <li><a href="pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <p>Estudio Creativo — Argentina</p>
+        <section class="hero">
+            <p class="hero-label">Estudio Creativo — Argentina</p>
             <h2>Diseño digital <br>con precisión.</h2>
-            <p><strong>Creamos experiencias visuales</strong> que comunican con <em>inteligencia y elegancia</em>.
+            <p class="hero-desc"><strong>Creamos experiencias visuales</strong> que comunican con <em>inteligencia y elegancia</em>.
             </p>
-            <a href="/pages/portfolio.html">VER PROYECTOS +</a>
+            <a class="hero-link" href="pages/portfolio.html">VER PROYECTOS +</a>
             <figure>
-                <img src="assets/Imagen-edificio.png" alt="Kairo Office">
+                <img src="assets/imagen-edificio.png" alt="Kairo Office">
             </figure>
         </section>
 
-        <section>
-            <div>
-                <a href="/pages/service.html">
-                    <h3>VER TODOS</h3>
-                </a>
+        <section class="index-servicios">
+            <div class="servicios-header">
+                <a href="pages/service.html">VER TODOS</a>
                 <h2>Servicios</h2>
             </div>
 
-            <div>
-                <article>
-                    <p>01</p>
-                    <h4>Branding</h4>
-                    <p>Identidades visuales que definen, diferencian y perduran en el tiempo.</p>
+            <div class="servicios-grid">
+                <article class="servicio-primero">
+                    <p class="servicio-num">01</p>
+                    <h3>Branding</h3>
+                    <p class="servicio-texto">Identidades visuales que definen, diferencian y perduran en el tiempo.</p>
                 </article>
 
                 <article>
-                    <p>02</p>
-                    <h4>UI / UX</h4>
-                    <p>Interfaces precisas construidas desde la experiencia real del usuario.</p>
+                    <p class="servicio-num">02</p>
+                    <h3>UI / UX</h3>
+                    <p class="servicio-texto">Interfaces precisas construidas desde la experiencia real del usuario.</p>
                 </article>
 
-                <article>
-                    <p>03</p>
-                    <h4>Direccion Creativa</h4>
-                    <p>Vision estrategica que da coherencia a cada punto de contacto visual.</p>
+                <article class="servicio-ultimo">
+                    <p class="servicio-num">03</p>
+                    <h3>Direccion Creativa</h3>
+                    <p class="servicio-texto">Vision estrategica que da coherencia a cada punto de contacto visual.</p>
                 </article>
             </div>
 
         </section>
 
-        <section>
-            <div>
-                <div>
-                    <a href="/pages/portfolio.html">
-                        <h3>VER TODOS</h3>
-                    </a>
+        <section class="index-proyectos">
+            <div class="proyectos-contenedor">
+                <div class="proyectos-header">
+                    <a href="pages/portfolio.html">VER TODOS</a>
                     <h2>Proyectos seleccionados</h2>
                 </div>
                 <article>
                     <figure>
-                        <img src="/assets/Imagen-Servicio6.png" alt="Forma Studio">
+                        <img src="assets/forma_studio.png" alt="Forma Studio">
                         <figcaption>
-                            <h4>Forma Studio</h4>
+                            <h3>Forma Studio</h3>
                             <p>Branding</p>
                         </figcaption>
                     </figure>
                 </article>
                 <article>
                     <figure>
-                        <img src="/assets/Imagen-Servicio.png" alt="Luz y Sombra">
+                        <img src="assets/luz_sombra.png" alt="Luz y Sombra">
                         <figcaption>
-                            <h4>Luz y Sombra</h4>
+                            <h3>Luz y Sombra</h3>
                             <p>Fotografia</p>
                         </figcaption>
                     </figure>
@@ -94,34 +88,34 @@
             </div>
         </section>
 
-        <section>
-            <h3>Siguiente paso</h3>
-            <h2>Hablemos de tu proximo proyecto.</h2>
-            <a href="/pages/contacto.html"> <button>Iniciar conversacion</button></a>
-        </section>
-
     </main>
 
+    <section class="index-cta">
+        <p>Siguiente paso</p>
+        <h2>Hablemos de tu proximo proyecto.</h2>
+        <a href="pages/contacto.html">Iniciar conversacion</a>
+    </section>
+
     <footer>
-        <div>
-            <h2>KAIRO</h2>
+        <div class="footer-brand">
+            <p class="footer-title">KAIRO</p>
             <p>Estudio de diseño digital.
                 Precisión. Claridad. Forma.</p>
         </div>
-        <div>
-            <h4>Navegacion</h4>
-            <p><a href="/pages/service.html">Servicios</a></p>
-            <p><a href="/pages/portfolio.html">Portfolio</a></p>
-            <p><a href="/pages/about.html">Sobre Nosotros</a></p>
-            <p><a href="/pages/contacto.html">Contacto</a></p>
+        <div class="footer-nav">
+            <p class="footer-title">Navegacion</p>
+            <p><a href="pages/service.html">Servicios</a></p>
+            <p><a href="pages/portfolio.html">Portfolio</a></p>
+            <p><a href="pages/about.html">Sobre Nosotros</a></p>
+            <p><a href="pages/contacto.html">Contacto</a></p>
         </div>
-        <div>
-            <h4>Contacto</h4>
+        <div class="footer-contact">
+            <p class="footer-title">Contacto</p>
             <p>hola@kairo.studio</p>
             <p>Argentina</p>
             <p>11 1234-1234</p>
         </div>
-        <div>
+        <div class="footer-bottom">
             <p>2026 KAIRO Studio. Todos los derechos reservados.</p>
             <p>Diseño con intención.</p>
         </div>

@@ -3,50 +3,118 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contacto</title>
+    <title>KAIRO | Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
     <header>
-        <div><a href="../index.html">
-                <h1>KAIRO</h1>
-            </a></div>
+        <h1><a href="../index.html">KAIRO</a></h1>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="about.html">Sobre Nosotros</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="service.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-        <footer>
-        <div>
-            <h2>KAIRO</h2>
+    <main>
+
+        <section class="contacto-intro">
+            <p class="contacto-label">Contacto</p>
+            <h2>Cuentanos tu proyecto.</h2>
+            <p class="contacto-subtitle">Respondemos en menos de 48 horas. Si prefieres hablar directamente, nos puedes llamar o escribir por correo.</p>
+        </section>
+
+        <div class="contacto-cuerpo">
+            <div class="contacto-info">
+                <p class="info-label">Informacion de contacto</p>
+                <div class="contacto-datos">
+                    <div class="contacto-item">
+                        <p class="item-label">Email</p>
+                        <p class="item-valor">hola@kairo.studio</p>
+                    </div>
+                    <div class="contacto-item">
+                        <p class="item-label">Telefono</p>
+                        <p class="item-valor">11 1234 1234</p>
+                    </div>
+                    <div class="contacto-item">
+                        <p class="item-label">Ubicacion</p>
+                        <p class="item-valor">Argentina</p>
+                    </div>
+                </div>
+                <div class="contacto-redes">
+                    <p class="redes-label">Redes</p>
+                    <a href="#">Instagram</a>
+                    <a href="#">Behance</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+            </div>
+
+            <form class="contacto-form">
+                <div class="form-field">
+                    <div class="form-label">Nombre completo *</div>
+                    <input type="text" placeholder="Tu nombre">
+                </div>
+                <div class="form-row">
+                    <div class="form-field">
+                        <div class="form-label">Email *</div>
+                        <input type="email" placeholder="tu@email.com">
+                    </div>
+                    <div class="form-field">
+                        <div class="form-label">Empresa</div>
+                        <input type="text" placeholder="Nombre de tu empresa">
+                    </div>
+                </div>
+                <div class="form-field">
+                    <div class="form-label">Servicio de interes</div>
+                    <div class="form-select">
+                        <div>Selecciona un servicio</div>
+                        <div>Branding</div>
+                        <div>UI / UX Design</div>
+                        <div>Dirección Creativa</div>
+                        <div>Diseño Editorial</div>
+                    </div>
+                </div>
+                <div class="form-field">
+                    <div class="form-label">Mensaje *</div>
+                    <div class="form-textarea">Cuentanos brevemente tu proyecto, objetivos y plazos...</div>
+                </div>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-brand">
+            <p class="footer-title">KAIRO</p>
             <p>Estudio de diseño digital.
                 Precisión. Claridad. Forma.</p>
         </div>
-        <div>
-            <h4>Navegacion</h4>
-            <p><a href="#">Portfolio</a></p>
+        <div class="footer-nav">
+            <p class="footer-title">Navegacion</p>
             <p><a href="portfolio.html">Portfolio</a></p>
+            <p><a href="service.html">Servicios</a></p>
             <p><a href="about.html">Sobre Nosotros</a></p>
-            <p><a href="contacto.html">Contacto</a></p>
+            <p><a href="#">Contacto</a></p>
         </div>
-        <div>
-            <h4>Contacto</h4>
+        <div class="footer-contact">
+            <p class="footer-title">Contacto</p>
             <p>hola@kairo.studio</p>
             <p>Argentina</p>
             <p>11 1234-1234</p>
         </div>
-        <div>
+        <div class="footer-bottom">
             <p>2026 KAIRO Studio. Todos los derechos reservados.</p>
             <p>Diseño con intención.</p>
         </div>
     </footer>
+
 </body>
 
 </html>
