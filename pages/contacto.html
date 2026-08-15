@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAIRO | Contacto</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -11,6 +12,10 @@
 
     <header>
         <h1><a href="../index.html">KAIRO</a></h1>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-btn" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
+        </label>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
@@ -57,32 +62,32 @@
 
             <form class="contacto-form">
                 <div class="form-field">
-                    <div class="form-label">Nombre completo *</div>
-                    <input type="text" placeholder="Tu nombre">
+                    <label class="form-label" for="nombre">Nombre completo *</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
                 </div>
                 <div class="form-row">
                     <div class="form-field">
-                        <div class="form-label">Email *</div>
-                        <input type="email" placeholder="tu@email.com">
+                        <label class="form-label" for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
                     </div>
                     <div class="form-field">
-                        <div class="form-label">Empresa</div>
-                        <input type="text" placeholder="Nombre de tu empresa">
+                        <label class="form-label" for="empresa">Empresa</label>
+                        <input type="text" id="empresa" name="empresa" placeholder="Nombre de tu empresa">
                     </div>
                 </div>
                 <div class="form-field">
-                    <div class="form-label">Servicio de interes</div>
-                    <div class="form-select">
-                        <div>Selecciona un servicio</div>
-                        <div>Branding</div>
-                        <div>UI / UX Design</div>
-                        <div>Dirección Creativa</div>
-                        <div>Diseño Editorial</div>
-                    </div>
+                    <label class="form-label" for="servicio">Servicio de interes</label>
+                    <select class="form-select" id="servicio" name="servicio">
+                        <option value="" selected>Selecciona un servicio</option>
+                        <option value="branding">Branding</option>
+                        <option value="ui-ux">UI / UX Design</option>
+                        <option value="direccion-creativa">Dirección Creativa</option>
+                        <option value="editorial">Diseño Editorial</option>
+                    </select>
                 </div>
                 <div class="form-field">
-                    <div class="form-label">Mensaje *</div>
-                    <div class="form-textarea">Cuentanos brevemente tu proyecto, objetivos y plazos...</div>
+                    <label class="form-label" for="mensaje">Mensaje *</label>
+                    <textarea class="form-textarea" id="mensaje" name="mensaje" placeholder="Cuentanos brevemente tu proyecto, objetivos y plazos..." required></textarea>
                 </div>
                 <button type="submit">Enviar mensaje</button>
             </form>
